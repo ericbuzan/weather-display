@@ -1,0 +1,2 @@
+https://api.weather.gov/gridpoints/LWX/98,79/stations
+https://api.weather.gov/stations/KCGS/observations/latest

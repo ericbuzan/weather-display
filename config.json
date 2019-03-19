@@ -1,0 +1,21 @@
+{
+  "name": "Weather Display",
+  "version": "0.1.20",
+  "slug": "weather_display",
+  "description": "Creates an image of current weather for eink display",
+  "startup": "before",
+  "boot": "auto",
+  "options": {
+    "api_key": "lol",
+    "lat": 0,
+    "lon": 0
+  },
+  "schema": {
+    "api_key": "str",
+    "lat": "float",
+    "lon": "float"
+  },
+  "ports": {
+    "8000/tcp": 8000
+  }
+}
